@@ -1,0 +1,17 @@
+{
+  "name": "@top-gg/eslint-config",
+  "version": "0.1.0",
+  "description": "Top.gg eslint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.00.0",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0"
+  },
+  "keywords": [],
+  "author": "Xetera",
+  "license": "ISC"
+}
