@@ -50,6 +50,10 @@ module.exports = {
     "eol-last": "warn",
     "@typescript-eslint/prefer-optional-chain": "error",
     "@typescript-eslint/prefer-for-of": "error",
+    "@typescript-eslint/no-namespace": [
+      "error",
+      { allowDefinitionFiles: true },
+    ],
   },
   overrides: [
     {
