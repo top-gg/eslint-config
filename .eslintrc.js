@@ -32,7 +32,7 @@ module.exports = {
     "no-throw-literal": "error",
     "no-var": "warn",
     "no-labels": "error",
-    "no-undefined": "error",
+    "no-undefined": "off",
     "no-new-object": "error",
     "no-multi-assign": "warn",
     "prefer-const": "warn",
