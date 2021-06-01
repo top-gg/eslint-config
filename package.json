@@ -4,14 +4,18 @@
   "description": "Top.gg eslint configuration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "peerDependencies": {
-    "eslint": ">=7.00.0",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0"
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "eslint": ">=7.00.0"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "Xetera",
   "license": "ISC"
 }
