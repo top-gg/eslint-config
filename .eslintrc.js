@@ -4,7 +4,6 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
   ],
   plugins: ["@typescript-eslint", "jest"],
@@ -65,6 +64,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-call": "off",
     // sometimes needed
     "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
   },
   overrides: [
     {
