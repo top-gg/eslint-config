@@ -10,7 +10,6 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
-    "eslint-plugin-unicorn": "^32.0.1",
     "eslint": ">=7.00.0"
   },
   "keywords": [

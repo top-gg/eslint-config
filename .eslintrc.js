@@ -1,14 +1,13 @@
 module.exports = {
-  extends: "eslint:recommended",
-  parserOptions: {
-    es6: true,
-    ecmaVersion: 2021,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  plugins: ["unicorn"],
+  root: true,
+  parser: "@typescript-eslint/parser",
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "prettier",
+  ],
+  plugins: ["@typescript-eslint", "jest"],
   env: {
     es6: true,
     browser: true,
@@ -50,15 +49,14 @@ module.exports = {
     "no-void": "error",
     "spaced-comment": ["warn", "always"],
     "eol-last": "warn",
-    // unicorn overrides
-    "unicorn/catch-error-name": "off",
-    "unicorn/explicit-length-check": "off",
-    "unicorn/no-array-callback-reference": "off",
-    "unicorn/no-null": "off",
-    "unicorn/throw-new-error": "off",
-    "unicorn/no-nested-ternary": "warn",
-    "unicorn/prefer-spread": "off",
-    "unicorn/no-lonely-if": "off",
+    "@typescript-eslint/prefer-includes": "error",
+    "@typescript-eslint/prefer-readonly": "error",
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "@typescript-eslint/prefer-string-starts-ends-with": "error",
+    "@typescript-eslint/require-array-sort-compare": "error",
+    "@typescript-eslint/prefer-for-of": "error",
+    // logical chaining can sometimes be useful
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
   },
   overrides: [
     {
