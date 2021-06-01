@@ -48,6 +48,7 @@ module.exports = {
     "no-void": "error",
     "spaced-comment": ["warn", "always"],
     "eol-last": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/prefer-optional-chain": "error",
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/no-namespace": [

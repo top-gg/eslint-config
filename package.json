@@ -1,6 +1,6 @@
 {
   "name": "@top-gg/eslint-config",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Top.gg eslint configuration.",
   "main": "index.js",
   "scripts": {
