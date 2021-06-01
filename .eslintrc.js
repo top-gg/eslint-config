@@ -57,6 +57,14 @@ module.exports = {
     "@typescript-eslint/prefer-for-of": "error",
     // logical chaining can sometimes be useful
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    // causes lots of problems
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    // these should be up to the compiler options, not eslint
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    // sometimes needed
+    "@typescript-eslint/no-explicit-any": "off",
   },
   overrides: [
     {
