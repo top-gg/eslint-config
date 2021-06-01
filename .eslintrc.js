@@ -48,23 +48,8 @@ module.exports = {
     "no-void": "error",
     "spaced-comment": ["warn", "always"],
     "eol-last": "warn",
-    "@typescript-eslint/prefer-includes": "error",
-    "@typescript-eslint/prefer-readonly": "error",
     "@typescript-eslint/prefer-optional-chain": "error",
-    "@typescript-eslint/prefer-string-starts-ends-with": "error",
-    "@typescript-eslint/require-array-sort-compare": "error",
     "@typescript-eslint/prefer-for-of": "error",
-    // logical chaining can sometimes be useful
-    "@typescript-eslint/prefer-nullish-coalescing": "warn",
-    // causes lots of problems
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    // these should be up to the compiler options, not eslint
-    "@typescript-eslint/no-unsafe-member-access": "off",
-    "@typescript-eslint/no-unsafe-return": "off",
-    "@typescript-eslint/no-unsafe-call": "off",
-    // sometimes needed
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unsafe-assignment": "off",
   },
   overrides: [
     {
